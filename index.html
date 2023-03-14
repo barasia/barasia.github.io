@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>pwa-dasar</title>
+    <link rel="manifest" href="manifest.json"> </script>
+
+    <style>
+        .title {
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="title">
+        <h3>Animal List</h3>
+        <br />
+        <img src="./assets/img/teddy.gif" alt="image-logo">
+        <br />
+        Select Category: <select id="select-category" onchange="ChangeSelect()">
+            <option value="loading">Loading . . .</option>
+        </select>
+        <span id="counter"></span>
+        <hr />
+        <div id="list">
+            Loading from api, Please Wait . . .
+        </div>
+    </div>
+</body>
+<script src="assets/js/main.js" type="text/javascript"> </script>
+
+</html>
